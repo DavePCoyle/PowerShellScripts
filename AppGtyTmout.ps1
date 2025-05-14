@@ -1,8 +1,9 @@
+# This script finds timeout settings on all App Gateways in ALL AZ subscriptions
 # Ensure Az module is imported
 Import-Module Az.Network
 Import-Module Az.Accounts
 
-# Connect to Azure (if not already connected)
+# Connect to Azure (if not already connected) Comment out lines 1-6 if using AZ CLI
 Connect-AzAccount
 
 # Get all subscriptions
